@@ -5,7 +5,6 @@
 services:
   netdata:
     image: netdata/netdata:latest
-    restart: unless-stopped
     cap_add:
       - SYS_PTRACE
       - SYS_ADMIN
